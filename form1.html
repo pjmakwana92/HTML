@@ -6,6 +6,77 @@
     <title>form 1</title>
 </head>
 <body>
-    
+    <form action="" method="post">
+        <h3 align="left">Create Profile</h3>
+        <br>
+        <table >
+            <tr>
+                <td>
+                    Enter your email <br>
+                    <input type="email" name="email" placeholder="Enter your email" size="65%">
+                </td>
+                <td>
+                    Set password <br>
+                    <input type="password" name="password" placeholder="Enter your password" size="65%">
+                </td>
+                <td>
+                    Mobile number <br>
+                    <input type="tel" name="mnomber" placeholder="Enter your mobile number" size="65%">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Enter slogan here <br>
+                    <input type="text" name="slogan" placeholder="Enter company/service name" size="65%">
+                </td>
+                <td>
+                    Select logo <br>
+                    <input type="file" name="logo" placeholder="No file selected">
+                </td>
+                <td>
+                    Select category<br>
+                    <select name="category" id="">
+                        <option value="0">Select category</option>
+                        <option value="1">111</option>
+                        <option value="2">222</option>
+                        <option value="3">333</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Enter your name <br>
+                    <input type="text" name="name" placeholder="Enter your name" size="65%">
+                </td>
+                <td>
+                    Enter your surname <br>
+                    <input type="text" name="surname" placeholder="Enter your surname" size="65%">
+                </td>
+                <td>
+                    Enter your father name <br>
+                    <input type="text" name="fathername" placeholder="Enter your father name" size="65%">
+                </td>
+            </tr>
+        </table>
+        <table align="center">
+            <tr>
+                <td>
+                    Enter Address 1<br>
+                    <textarea name="add1" id="" cols="100" rows="3"></textarea>
+                </td>
+                <td>
+                    Enter Address 2<br>
+                    <textarea name="add2" id="" cols="100" rows="3"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td align="right" colspan="2">
+                    <input type="submit" value="Create Profile" color="blue">
+                    <input type="reset" value="Clear all" bgcolor="1">
+                </td>
+            </tr>
+        </table>
+        
+    </form>
 </body>
 </html>
