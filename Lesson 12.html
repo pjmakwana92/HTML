@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registeration form</title>
+</head>
+<body>
+    <h1 align="center">Registeration form</h1>
+    <hr>
+   <form action="">
+    <table border="3" align="center" width="50%">
+        <tr>
+            <td colspan="2">
+                <h3 align="center">Register Your Details</h3>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="nm">Enter Your name</label>
+            </td>
+            <td>
+                <input type="text" name="nametxt" id="nm" placeholder="First Name Last Name">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="cn">
+                    Enter Your Mobile Nomber
+                </label>
+            </td>
+            <td>
+                <input type="tel" name="cntext" id="cn" placeholder="Enter Your Mobile Nomber">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="dob">
+                    Enter Your date of birth
+                </label>
+            </td>
+            <td>
+                <input type="date" name="dob" id="dob">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="dt">
+                    Enter Date Time
+                </label>
+            </td>
+            <td>
+                <input type="datetime" name="dt" id="dt">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="tm">
+                    Enter Time
+                </label>
+            </td>
+            <td>
+                <input type="time" name="tm" id="tm">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="g">
+                    Enter Your gender
+                </label>
+            </td>
+            <td>
+                <input type="radio" name="mf" id="mf" value="1"> Male <br>
+                <input type="radio" name="mf" id="mf" value="0">Female
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="hb">
+                    Select your hobbies
+                </label>
+            </td>
+            <td>
+                <input type="checkbox" name="hb" id="hb" value="1">Music <br>
+                <input type="checkbox" name="hb" id="hb" value="2">Dance <br>
+                <input type="checkbox" name="hb" id="hb" value="3">Reading
+            </td>            
+        </tr>
+        <tr>
+            <td>
+                <label for="cty">
+                    Select Your Country
+                </label>
+            </td>
+            <td>
+                <select name="cty" id="hb">
+                    <option value="">Select Your Country</option>
+                    <option value="India">India</option>
+                    <option value="USA">USA</option>
+                    <option value="Rusia">Rusia</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="uf">
+                    Upload file
+                </label>
+            </td>
+            <td>
+               <input type="file" name="uf" id="uf">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="add">
+                    Enter Your Address
+                </label>
+            </td>
+            <td>
+                <textarea name="add" id="add" cols="30" rows="3"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">
+                <input type="submit" value="REGISTER">
+                <input type="reset" value="CLEAR ALL">
+            </td>
+        </tr>
+    </table>
+   </form>
+</body>
+</html>
